@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 from sklearn.linear_model import LinearRegression
 
-os.chdir("C:/Users/Khushi/OneDrive/Desktop/data+codes/datasets")
+os.chdir("../path")
 mtcars = pd.read_csv('CarPrice_Assignment.csv')
 
 print(mtcars.head())
