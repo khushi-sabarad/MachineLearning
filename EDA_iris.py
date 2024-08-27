@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Set the working directory (replace "path" with your actual path)
-os.chdir("C:/Users/Khushi/OneDrive/Desktop/data+codes/datasets")
+os.chdir("path")
 
 # Load the dataset
 iris = pd.read_csv('Iris.csv')
