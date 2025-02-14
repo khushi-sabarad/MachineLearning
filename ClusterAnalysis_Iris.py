@@ -8,6 +8,7 @@ data = load_iris()
 df = data.data
 
 z = linkage(df, method="ward")
+# linkage from scipy.cluster.hierarchy is used for hierarchical clustering in general. You can use it with different linkage methods (like 'ward', 'single', 'complete'), which determine how the distances between clusters are calculated.
 dendro = dendrogram(z)
 plt.title('Dendrogram')
 plt.ylabel('Euclidean distance')
